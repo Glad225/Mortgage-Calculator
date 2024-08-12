@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width initial-scale=1.0"/>
+    <title>Mortgage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="all-container">
+        <div class="general">
+            <div>
+                <span class="dark-blue">Mortgage Calculator</span>
+                <p class="underline">Clear All</p>
+            </div>
+            <div>
+                <label>Mortgage Amount</label>
+                <div class="row">
+                    <i class="fa-solid fa-euro-sign"></i>
+                    <input class="width"type="text">
+                </div>
+            </div>
+            <div class="margin">
+                <label >Mortgage Term</label>
+                <div class="row">
+                    <input class="width" type="text">
+                    <p class="float">years</p>
+                </div>
+            </div>
+            <div>
+                <label>Interest Rate</label>
+                <div class="row">
+                    <input class="width" type="text">
+                    <p class="float">%</p>
+                </div>
+            </div>
+            <div class="fourth-container">
+                <label>Mortgage Type</label>
+                <div class="type">
+                    <div class="please"><input type="radio"></div>
+                    <p class="blue">Repayment</p>
+                </div>
+                <div class="abeg">
+                    <div class="please"><input type="radio"></div>
+                    <p class="blue">Interest Only</p>
+                </div>
+            </div>
+            <button>
+                <div class="gap">
+                    <i class="fa-solid fa-calculator"></i><span class="color">Calculate Repayments</span>
+                </div>
+            </button>        
+        </div>
+        <div class="all">
+            <span class="white">Your results</span>
+            <p>Your results are shown below bbased on the
+                information you provided. To adjust the results,
+                edit the form and click "calculate repayments" again.
+            </p>
+            <div class="border">
+                <p>Your monthly repayments</p>
+                <p class="yellow">$1, 797.74</p>
+                <hr>
+                <p>Total you'll repay over the term</p>
+                <p class="white">$539,322.94</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
