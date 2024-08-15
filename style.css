@@ -25,10 +25,6 @@ body{
     @media screen and (min-width:600px) {
         width: 500px;
     }
-    @media screen and (min-width:1024px) {
-        width: 800px;
-        background-color: red;
-    }
 }
 .dark-blue{
     color: var(--color-text);
